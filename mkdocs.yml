@@ -13,6 +13,9 @@ theme:
   features:
     - content.code.copy
     - navigation.footer
+nav:
+  - Introduction: index.md
+  - Datastoreobject: datastoreobjects.md
 
 extra_css:
   - stylesheets/extra.css
@@ -20,6 +23,17 @@ extra_css:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - footnotes
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -27,12 +41,6 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - admonition
-  - pymdownx.details
-  - footnotes
   - pymdownx.tabbed:
       alternate_style: true
 
